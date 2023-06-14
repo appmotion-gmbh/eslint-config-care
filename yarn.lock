@@ -745,10 +745,10 @@ eslint-module-utils@^2.7.4:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-care@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-care/-/eslint-plugin-care-1.1.1.tgz#74bb2b39640c9f64191e99625a7813e864603f8d"
-  integrity sha512-DU7Zv34LdIzzJMT0RATny0u+biZhEEK16QgA+/qB1nqcZa922b314qpretljOU6vUsM+TEMT2V1DXbX1mEFgag==
+eslint-plugin-care@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-care/-/eslint-plugin-care-1.2.0.tgz#26214e6cff53eece97b6948ef4847882fc799f52"
+  integrity sha512-8t0I7/vkf8udY9GY9zrTj83m/wmCkJ6iQzaCW1ZBFhkRYJ5RKXsmwB4RUxhqbp9FAfSYFmImA28+TK50quAzVg==
   dependencies:
     postcss "8.4.24"
     postcss-sass-2 "0.9.4"
