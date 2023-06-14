@@ -46,6 +46,8 @@ module.exports = {
         'jsx-a11y/aria-role': ['off'],
         'max-len': ['error', { code: 140, ignoreStrings: true, ignoreTemplateLiterals: true }],
         'newline-per-chained-call': ['off'],
+        'no-await-in-loop': ['off'],
+        'no-constant-condition': ['off'],
         'no-continue': ['off'],
         'no-param-reassign': ['off'],
         'no-restricted-syntax': ['error', {
