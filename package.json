@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-care",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "author": "Martin Denk <ausdenk@gmail.com>",
     "description": "CARE config for ESLint",
     "main": "index.js",

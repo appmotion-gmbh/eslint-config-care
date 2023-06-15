@@ -17,6 +17,7 @@ module.exports = {
         'care/jsx-no-padded-elements': ['error'],
         'care/jsx-one-element-per-line': ['error'],
         'care/jsx-root-newline': ['error'],
+        'care/logical-indent': ['error'],
         'care/multiline-function-parens': ['error'],
         'care/multiline-ternary-parens': ['error'],
         'care/no-single-line-function-declaration': ['error'],
