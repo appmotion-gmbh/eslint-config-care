@@ -53,7 +53,7 @@ module.exports = {
         'no-continue': ['off'],
         'no-param-reassign': ['off'],
         'no-restricted-syntax': ['error', {
-            selector: ':matches(FunctionExpression, FunctionDeclaration[generator!=true])',
+            selector: ':not(MethodDefinition) > :matches(FunctionExpression, FunctionDeclaration[generator!=true])',
             message: 'Use an arrow function instead.'
         }],
         'no-underscore-dangle': ['off'],
