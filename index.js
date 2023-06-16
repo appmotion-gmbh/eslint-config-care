@@ -5,7 +5,7 @@ module.exports = {
     rules: {
         'array-bracket-newline': ['error', 'consistent'],
         'brace-style': ['error', '1tbs', { allowSingleLine: false }],
-        'camelcase': ['error', { allow: ['^UNSAFE_'] }],
+        'camelcase': ['error', { allow: ['^UNSAFE_'], ignoreDestructuring: true, properties: 'never' }],
         'care/chained-call-newline': ['error'],
         'care/jsx-bem': ['error'],
         'care/jsx-curly-singleline': ['error'],
@@ -57,6 +57,7 @@ module.exports = {
             message: 'Use an arrow function instead.'
         }],
         'no-underscore-dangle': ['off'],
+        'no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '^_', ignoreRestSiblings: true }],
         'no-use-before-define': ['off'],
         'object-curly-newline': ['error', { consistent: true, multiline: true }],
         'object-shorthand': ['off'],
