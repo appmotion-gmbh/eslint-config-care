@@ -55,6 +55,9 @@ module.exports = {
         'no-restricted-syntax': ['error', {
             selector: ':not(MethodDefinition) > :matches(FunctionExpression, FunctionDeclaration[generator!=true])',
             message: 'Use an arrow function instead.'
+        }, {
+            selector: ':not(AssignmentExpression, CallExpression, ConditionalExpression, ExpressionStatement, IfStatement, LogicalExpression, Property, VariableDeclarator) > AwaitExpression',
+            message: 'Declare a variable for this await expression.'
         }],
         'no-underscore-dangle': ['off'],
         'no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '^_', ignoreRestSiblings: true }],
